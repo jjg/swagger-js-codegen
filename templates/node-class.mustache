@@ -61,7 +61,8 @@
             uri: url,
             qs: queryParameters,
             headers: headers,
-            body: body
+            body: body,
+            jar: true
         };
         if(Object.keys(form).length > 0) {
             req.form = form;
